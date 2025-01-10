@@ -1,0 +1,8 @@
+[package]
+name = "codewars"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nato = "0.2.0"
+once_cell = "1.20.2"
