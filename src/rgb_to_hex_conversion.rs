@@ -20,7 +20,7 @@ fn rgb(r: i32, g: i32, b: i32) -> String {
         }
         let first = value / 16;
         let second = value % 16;
-        
+
         (convert(first), convert(second))
     };
     let (r1, r2) = decompose_to_hex(r);

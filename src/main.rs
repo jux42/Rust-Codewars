@@ -1,5 +1,3 @@
-use crate::if_you_can_read_this::to_nato;
-use crate::mexican_wave::wave;
 
 mod if_you_can_read_this;
 mod mexican_wave;
