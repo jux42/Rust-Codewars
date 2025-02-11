@@ -15,9 +15,11 @@ mod counting_sheeps;
 mod beeramid;
 mod next_smaller;
 mod isbn10_validation;
+mod large_factorials;
+mod sum_of_odd_numbers;
 
 fn main() {
     
-    isbn10_validation::valid_isbn10("1293");
+    println!("{}",large_factorials::factorial(100));
 }
 
